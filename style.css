@@ -7,16 +7,19 @@
 
 body {
     background-image: linear-gradient(to right, rgb(214, 209, 209), white);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main {
     width: 300px;
     background-color: white;
     border-radius: 20px;
-    margin: 50px;
+    margin: 7px;
     padding: 7px;
 
 }
+
 
 .div1 {
     background-image: linear-gradient(to right, orange, red);
@@ -24,7 +27,24 @@ body {
     border-radius: 20px 20px 250px 0px;
     margin-bottom: 10px;
 }
-
+.div2{
+    background-image: linear-gradient(to right, rgba(231, 10, 231, 0.966),rgb(144, 11, 232));
+    padding: 90px 50px;
+    border-radius: 20px 20px 250px 0px;
+    margin-bottom: 10px;
+}
+.div3{
+    background-image: linear-gradient(to right,rgb(99, 99, 192), rgb(53, 53, 148));
+    padding: 90px 50px;
+    border-radius: 20px 20px 250px 0px;
+    margin-bottom: 10px;
+}
+.div4{
+    background-image: linear-gradient(to right, rgb(19, 245, 19), green);
+    padding: 90px 50px;
+    border-radius: 20px 20px 250px 0px;
+    margin-bottom: 10px;
+}
 .cart {
 
 
@@ -56,5 +76,4 @@ h3{
     margin: 20px 100px;
    color: white;
     padding: 5px 20px;
-
 }
