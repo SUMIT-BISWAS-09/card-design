@@ -54,10 +54,11 @@ body {
 
 }
 
-.bxl-html5 {
+.bxl-html5,.bxl-microsoft,.bxl-java,.bxl-css3 {
     font-size: 100px;
     
 }
+
 
 h3,
 p {
